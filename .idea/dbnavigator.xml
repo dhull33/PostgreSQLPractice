@@ -24,9 +24,9 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="f3cefc79-e468-4dbd-b669-018d78bb1aab">
+      <connection connection-id="c76d3f99-71c1-40c3-b350-9ec5ac590b37">
         <schema name="pg_catalog" object-types="function, table, view" />
-        <schema name="public" object-types="column, function, table, view" />
+        <schema name="public" object-types="view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -37,16 +37,21 @@
     <connection id="f3cefc79-e468-4dbd-b669-018d78bb1aab">
       <console name="RestaurantConnection" type="STANDARD" />
     </connection>
+    <connection id="1cf6348a-8a19-4149-9442-c6cbdf4bf107">
+      <console name="ProjectsConnect " type="STANDARD" />
+    </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="c76d3f99-71c1-40c3-b350-9ec5ac590b37" />
     <connection id="f3cefc79-e468-4dbd-b669-018d78bb1aab" />
+    <connection id="1cf6348a-8a19-4149-9442-c6cbdf4bf107" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/restaurant.sql" connection-id="f3cefc79-e468-4dbd-b669-018d78bb1aab" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/projects.sql" connection-id="c76d3f99-71c1-40c3-b350-9ec5ac590b37" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/Restaurant/restaurant.sql" connection-id="f3cefc79-e468-4dbd-b669-018d78bb1aab" session-id="MAIN" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
@@ -65,7 +70,7 @@
   </component>
   <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
     <recently-used-interfaces>
-      <mapping database-type="POSTGRES" interface-id="86c7d13f-9021-484a-a2dc-2d65fa7e0af6" />
+      <mapping database-type="POSTGRES" interface-id="f2ed8aef-80c5-4762-897d-205df7e173a2" />
     </recently-used-interfaces>
   </component>
   <component name="DBNavigator.Project.Settings">
@@ -77,13 +82,90 @@
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
           <database-version value="10.3" />
+          <driver-source value="EXTERNAL" />
+          <driver-library value="$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/42.2.1/postgresql-42.2.2.jar" />
+          <driver value="org.postgresql.Driver" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="5432" />
+          <database value="davidhull" />
+          <os-authentication value="true" />
+          <empty-password value="false" />
+          <user value="" />
+          <password value="" />
+        </database>
+        <properties>
+          <auto-commit value="true" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <proxy-password value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="development" />
+          <idle-time-to-disconnect value="30" />
+          <password-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="f3cefc79-e468-4dbd-b669-018d78bb1aab" active="false">
+        <database>
+          <name value="RestaurantConnection" />
+          <description value="" />
+          <database-type value="POSTGRES" />
+          <config-type value="BASIC" />
+          <database-version value="10.3" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="5432" />
-          <database value="postgres" />
+          <database value="restaurant" />
           <os-authentication value="true" />
           <empty-password value="false" />
           <user value="" />
@@ -147,10 +229,10 @@
           <object-name-filters />
         </object-filters>
       </connection>
-      <connection id="f3cefc79-e468-4dbd-b669-018d78bb1aab" active="true">
+      <connection id="1cf6348a-8a19-4149-9442-c6cbdf4bf107" active="false">
         <database>
-          <name value="RestaurantConnection" />
-          <description value="" />
+          <name value="ProjectsConnect " />
+          <description value="Projects Data Base " />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
           <database-version value="10.3" />
@@ -160,7 +242,7 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="5432" />
-          <database value="restaurant" />
+          <database value="projectsdb" />
           <os-authentication value="true" />
           <empty-password value="false" />
           <user value="" />
@@ -539,6 +621,8 @@
       <script-execution>
         <command-line-interfaces>
           <value id="86c7d13f-9021-484a-a2dc-2d65fa7e0af6" name="PostgreSQL terminal" executable-path="$PROJECT_DIR$/restaurant.sql" database-type="POSTGRES" />
+          <value id="d6fa56ad-be88-495a-b592-c799907b35bf" name="ProjectsDB" executable-path="$PROJECT_DIR$/projects.sql" database-type="POSTGRES" />
+          <value id="f2ed8aef-80c5-4762-897d-205df7e173a2" name="psql" executable-path="/Applications/Postgres.app/Contents/Versions/10/bin/psql" database-type="POSTGRES" />
         </command-line-interfaces>
         <execution-timeout value="300" />
       </script-execution>
