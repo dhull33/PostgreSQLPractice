@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="davidhull@localhost" uuid="699f7f73-eb1a-436f-925c-d78e839218e0">
-      <database-info product="PostgreSQL" version="10.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>davidhull</user-name>
-      <introspection-schemas>postgres:public|projectsdb:|restaurant:</introspection-schemas>
-    </data-source>
-    <data-source name="projectsdb@localhost" uuid="da6410e1-0242-4717-b36d-89cbd08b4893">
+    <data-source name="davidhull@localhost" uuid="972ccbef-f6f0-4a79-a044-baaf6f1cc981">
       <database-info product="PostgreSQL" version="10.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <introspection-schemas>projectsdb:public</introspection-schemas>
+      <introspection-schemas>davidhull:public</introspection-schemas>
     </data-source>
   </component>
 </project>
