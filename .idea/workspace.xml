@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17cae90f-923c-4a0e-9e8b-a0560a2f843a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/699f7f73-eb1a-436f-925c-d78e839218e0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/da6410e1-0242-4717-b36d-89cbd08b4893.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projects.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,14 +70,23 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45758122">
+    <splitter split-orientation="horizontal" split-proportion="0.37846398">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="projects.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/projects.sql">
+          <file leaf-file-name="projDbExercise.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Projects/projDbExercise.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="359">
-                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+                <state>
+                  <caret lean-forward="true" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -90,17 +94,54 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" selection-start-line="4" selection-end-line="130" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.6723096">
+          <split-first>
+            <splitter split-orientation="horizontal" split-proportion="0.5171103">
+              <split-first>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                  <file leaf-file-name="project_uses_tech" pinned="false" current-in-tab="true">
+                    <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/project_uses_tech">
+                      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                        <state>
+                          <filtering enabled="true" />
+                          <column-attributes>
+                            <column name="ctid" enabled="false" />
+                          </column-attributes>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file leaf-file-name="tech" pinned="false" current-in-tab="true">
+                    <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/tech">
+                      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                        <state>
+                          <filtering enabled="true" />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="project" pinned="false" current-in-tab="true">
+                <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/project">
+                  <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                    <state>
+                      <filtering enabled="true" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -128,8 +169,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/da6410e1-0242-4717-b36d-89cbd08b4893/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/386a071e-f15e-4fa8-b142-faaf116bdbcd/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/972ccbef-f6f0-4a79-a044-baaf6f1cc981/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql" />
         <option value="$PROJECT_DIR$/projects.sql" />
+        <option value="$PROJECT_DIR$/Projects/projDbExercise.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql" />
       </list>
     </option>
   </component>
@@ -140,11 +182,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="500" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1280" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4240" />
+    <option name="y" value="-158" />
+    <option name="width" value="1707" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -153,7 +195,29 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PostgreSQLPractice" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="PostgreSQLPractice" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+            </path>
+            <path>
+              <item name="PostgreSQLPractice" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="PostgreSQLPractice" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PostgreSQLPractice" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
@@ -163,11 +227,12 @@
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projects" />
+      <recent name="$PROJECT_DIR$/Restaurant" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Projects" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Restaurant" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,20 +258,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="500" y="-1057" width="1280" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="4240" y="-158" width="1707" height="1058" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" weight="0.2463651" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.328125" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" weight="0.32790223" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.3290735" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32932693" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32870865" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2529349" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.20277481" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16801292" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.25201938" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.40511727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09249249" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.09129129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -224,7 +288,35 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/32233cf3/91db4dd5-3ce5-4700-9ac4-5d8710808908/projects_db.public.tech">
+    <entry file="file://$PROJECT_DIR$/Projects/projDbExercise.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/project">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/tech">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="130" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/project_uses_tech">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -237,9 +329,6 @@
           <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/699f7f73-eb1a-436f-925c-d78e839218e0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -255,7 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.sql">
+    <entry file="file://$PROJECT_DIR$/Projects/projects.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="143" selection-start-line="143" selection-end-line="143" />
@@ -341,9 +430,6 @@
       </provider>
     </entry>
     <entry file="das://table:/32233cf3/4778db72-ad5b-4bfd-95eb-3b985c630dcf/restaurant.public.restaurant" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Restaurant/restaurant.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -369,9 +455,6 @@
     <entry file="das://table:/32233cf3/a2d5c2f5-696c-4a0f-bd49-5f1be205c8cf/projectsdb.public.project_uses_tech" />
     <entry file="file://$PROJECT_DIR$/Projects/projectsDB.sql" />
     <entry file="das://table:/32233cf3/a2d5c2f5-696c-4a0f-bd49-5f1be205c8cf/projectsdb.public.project" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a2d5c2f5-696c-4a0f-bd49-5f1be205c8cf/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd721c6c-1848-4610-babe-a5b052642dcb/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -393,9 +476,6 @@
           <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/609fae4c-64a4-4dec-a9e8-5b39af3d7f97/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://table:/32233cf3/da6410e1-0242-4717-b36d-89cbd08b4893/projectsdb.public.project" />
     <entry file="das://table:/32233cf3/386a071e-f15e-4fa8-b142-faaf116bdbcd/postgres.public.project" />
@@ -427,16 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0c6046e-6ffa-4ebe-8a3e-e1190599b31f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://91db4dd5-3ce5-4700-9ac4-5d8710808908/database/projects_db/schema/public/table/project">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
         </state>
       </provider>
     </entry>
@@ -457,17 +531,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql">
+    <entry file="file://$PROJECT_DIR$/Projects/projects.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="130" selection-end-column="37" />
+        <state relative-caret-position="-603">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.sql">
+    <entry file="file://$PROJECT_DIR$/Projects/projDbExercise.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state>
+          <caret lean-forward="true" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/91db4dd5-3ce5-4700-9ac4-5d8710808908/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

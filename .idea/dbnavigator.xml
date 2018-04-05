@@ -51,6 +51,7 @@
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
     <mapping file-url="file://$PROJECT_DIR$/Projects/projects.sql" connection-id="1cf6348a-8a19-4149-9442-c6cbdf4bf107" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/Projects/projDbExercise.sql" connection-id="1cf6348a-8a19-4149-9442-c6cbdf4bf107" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/Restaurant/restaurant.sql" connection-id="f3cefc79-e468-4dbd-b669-018d78bb1aab" session-id="MAIN" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
